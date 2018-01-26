@@ -1,0 +1,5 @@
+language: node_js
+node_js:
+- 6.5.0
+script:
+  - $(npm bin)/cypress run --record --key 1dfc0025-1529-4cfb-83eb-e77f7e00461f
