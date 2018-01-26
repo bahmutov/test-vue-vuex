@@ -1,0 +1,27 @@
+{
+  "name": "test-vue-vuex",
+  "version": "1.0.0",
+  "description": "Testing Vue + Vuex + REST TodoMVC using Cypress.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --static . data.json --middlewares node_modules/json-server-reset"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/test-vue-vuex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahmutov/test-vue-vuex/issues"
+  },
+  "homepage": "https://github.com/bahmutov/test-vue-vuex#readme",
+  "dependencies": {
+    "json-server": "^0.12.1"
+  },
+  "devDependencies": {
+    "json-server-reset": "^1.0.0"
+  }
+}
